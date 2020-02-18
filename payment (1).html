@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+	div {
+	text-align:center;
+  	border: 1px solid black;
+  	margin-top: 100px;
+  	margin-bottom: 100px;
+  	margin-right: 400px;
+	margin-left:200px;
+	font-size:18px;
+	font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+	}
+	.field{
+	margin-top:10px;
+	}
+	button{
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-right:20px;
+		font-size:18px;
+		padding:center;
+		background-color:#d84f57;
+		}
+	button:hover {
+  		background-color: gray;
+  		color: white;
+	}
+	.field{
+		border-radius: 4px;
+		width:250px;
+		height:30px;
+	}
+	select{
+		font-family: 'Segoe UI', 'Roboto', arial, sans-serif;
+		font-size:18px;
+		border-radius:5px;
+		width:100px;
+		color:#6B0E05;
+	}
+	#dropdown{
+	padding-top:10px;
+	}
+	body{
+		background-image: url(C:/Users/lntinfotech/Desktop/pooja/bus.jpg);
+		background-repeat: no-repeat;
+	}
+
+</style>
+</head>
+<body text="#6B0E05">
+	<form action="">
+	<div>
+	<h1 style="background-color:#d84f57">Payment Details</h1>
+	<b>
+	TOTAL FARE:<br><br>
+	SELECT PAYMENT MODE:
+		<select id="drop-down">
+		<option value="">select</option>
+  		<option value="credit">credit</option>
+  		<option value="debit">debit</option>
+  		<option value="UPI">UPI</option>	
+		</select><br><br>
+	Name on Card:<input type="text" class="field" placeholder="Pooja Heroor"><br>
+	Card Number:<input type="text" class="field" placeholder="1111-2222-3333-4444"><br>
+	Exp Month:<input type="text" class="field" placeholder="September"><br>
+	CVV:<input type="text" class="field" placeholder="352"><br>
+	</b>
+	<button type="submit">continue</button>
+	<button>cancel</button>
+	</div>
+	</form>
+</body>
+</html>
